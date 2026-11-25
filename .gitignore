@@ -1,0 +1,16 @@
+# Python environments and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Dataset: exclude until redistribution rights are confirmed
+/data/raw/demand_forecasting.csv
+
+# Generated model artifacts
+artifacts/*.pkl
+artifacts/*.joblib
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
